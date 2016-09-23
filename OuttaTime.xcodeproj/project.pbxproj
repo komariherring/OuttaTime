@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		EE60AD931D92EC53008B049A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD921D92EC53008B049A /* main.m */; };
 		EE60AD961D92EC53008B049A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD951D92EC53008B049A /* AppDelegate.m */; };
-		EE60AD991D92EC53008B049A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD981D92EC53008B049A /* ViewController.m */; };
-		EE60AD9C1D92EC53008B049A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE60AD9A1D92EC53008B049A /* Main.storyboard */; };
+		EE60AD991D92EC53008B049A /* SetDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60AD981D92EC53008B049A /* SetDestinationViewController.m */; };
 		EE60AD9E1D92EC53008B049A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE60AD9D1D92EC53008B049A /* Assets.xcassets */; };
 		EE60ADA11D92EC53008B049A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE60AD9F1D92EC53008B049A /* LaunchScreen.storyboard */; };
+		EE60ADAA1D92EC9B008B049A /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE60ADA91D92EC9B008B049A /* DisplayViewController.m */; };
+		EE7911751D92F2D600CD00B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7911741D92F2D600CD00B8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,15 @@
 		EE60AD921D92EC53008B049A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE60AD941D92EC53008B049A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE60AD951D92EC53008B049A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE60AD971D92EC53008B049A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE60AD981D92EC53008B049A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE60AD9B1D92EC53008B049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE60AD971D92EC53008B049A /* SetDestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetDestinationViewController.h; sourceTree = "<group>"; };
+		EE60AD981D92EC53008B049A /* SetDestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetDestinationViewController.m; sourceTree = "<group>"; };
 		EE60AD9D1D92EC53008B049A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE60ADA01D92EC53008B049A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE60ADA21D92EC53008B049A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE60ADA81D92EC9B008B049A /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		EE60ADA91D92EC9B008B049A /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		EE60ADAB1D92EF44008B049A /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		EE7911741D92F2D600CD00B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,14 @@
 		EE60AD901D92EC53008B049A /* OuttaTime */ = {
 			isa = PBXGroup;
 			children = (
+				EE60ADAB1D92EF44008B049A /* digital-7.ttf */,
 				EE60AD941D92EC53008B049A /* AppDelegate.h */,
 				EE60AD951D92EC53008B049A /* AppDelegate.m */,
-				EE60AD971D92EC53008B049A /* ViewController.h */,
-				EE60AD981D92EC53008B049A /* ViewController.m */,
-				EE60AD9A1D92EC53008B049A /* Main.storyboard */,
+				EE60ADA81D92EC9B008B049A /* DisplayViewController.h */,
+				EE60ADA91D92EC9B008B049A /* DisplayViewController.m */,
+				EE60AD971D92EC53008B049A /* SetDestinationViewController.h */,
+				EE60AD981D92EC53008B049A /* SetDestinationViewController.m */,
+				EE7911741D92F2D600CD00B8 /* Main.storyboard */,
 				EE60AD9D1D92EC53008B049A /* Assets.xcassets */,
 				EE60AD9F1D92EC53008B049A /* LaunchScreen.storyboard */,
 				EE60ADA21D92EC53008B049A /* Info.plist */,
@@ -138,9 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7911751D92F2D600CD00B8 /* Main.storyboard in Resources */,
 				EE60ADA11D92EC53008B049A /* LaunchScreen.storyboard in Resources */,
 				EE60AD9E1D92EC53008B049A /* Assets.xcassets in Resources */,
-				EE60AD9C1D92EC53008B049A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE60AD991D92EC53008B049A /* ViewController.m in Sources */,
+				EE60AD991D92EC53008B049A /* SetDestinationViewController.m in Sources */,
 				EE60AD961D92EC53008B049A /* AppDelegate.m in Sources */,
 				EE60AD931D92EC53008B049A /* main.m in Sources */,
+				EE60ADAA1D92EC9B008B049A /* DisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE60AD9A1D92EC53008B049A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE60AD9B1D92EC53008B049A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE60AD9F1D92EC53008B049A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -310,6 +310,7 @@
 				EE60ADA71D92EC53008B049A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

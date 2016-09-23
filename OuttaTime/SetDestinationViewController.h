@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DisplayViewController.h"
 
-@interface ViewController : UIViewController
+@interface SetDestinationViewController : UIViewController
 
+@property (nonatomic) id<DateSetDelegate> delegate;
 
 @end
-
